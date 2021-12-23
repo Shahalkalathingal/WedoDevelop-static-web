@@ -1203,13 +1203,19 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
-  padding: 30px;
   background: #fff;
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
 }
+
+
+@media only screen and (min-width: 1200px) {
+  .contact .info {
+    background: #fff;
+    margin-left: 18rem;
+    width: 100%;
+  }
+}
+
 .contact .info i {
   font-size: 20px;
   color: #47b2e4;
